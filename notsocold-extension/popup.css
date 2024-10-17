@@ -1,0 +1,207 @@
+body {
+  width: 25rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 1rem 0;
+}
+
+li {
+  padding: 0.25rem;
+}
+
+li:nth-child(odd) {
+  background: #80808030;
+}
+
+li:nth-child(even) {
+  background: #ffffff;
+}
+
+h3 {
+  margin: 0;
+  margin-left: 10px;
+}
+
+#message {
+  display: none;
+}
+
+.card {
+  border: 1px solid #80808030;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+#profile_pic {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+button {
+  border: 1px solid #80808030;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 95%;
+}
+
+button:hover {
+  background: #80808030;
+  cursor: pointer;
+}
+
+#resume {
+  border: 1px solid #80808030;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 90%;
+}
+
+#role {
+  border: 1px solid #80808030;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 90%;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.resume-div {
+  display: none;
+}
+.openai-div {
+  display: none;
+}
+#coldmsg {
+  border: 1px solid #80808030;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 90%;
+}
+
+.cold {
+  display: none;
+}
+
+/* button {
+  margin: 20px;
+  outline: none;
+} */
+.custom-btn {
+  width: 200px;
+  height: 60px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 0;
+  font-size: 24px;
+}
+
+/* 6 */
+.btn-6 {
+  margin-top: 50px;
+  background: #000;
+  color: #fff;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #000;
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover {
+  color: #000;
+  background: transparent;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  background: #000;
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+
+.abc {
+  font-size: 32px;
+  font-weight: 700;
+  /* padding: 20px; */
+  color: #f9a826;
+  margin: 0px;
+}
+
+.open-portal {
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid black;
+  background-color:#fff;
+}
+
+.send input[type="text"] {
+  font-family: "Lato", sans-serif;
+}

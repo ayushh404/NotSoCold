@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+
+  <body>
+    <h1 class="abc">NotSoCold</h1>
+    <button class="open-portal" id="portal">Open Portal</button>
+    <div class="card">
+      <img id="profile_pic" src="" alt="profile picture" />
+      <h2 id="name"></h2>
+      <h4><span id="job"></span> <span id="company"></span></h4>
+      <p id="bio"></p>
+      <p id="message"></p>
+    </div>
+    <br />
+    <div class="send">
+      <h3>Desired Role:</h3>
+      <input type="text" id="role" />
+      <br />
+      <div class="openai-div">
+        <h3>OpenAI API Key:</h3>
+        <input type="text" id="openai_api" />
+      </div>
+      <br />
+      <div class="resume-div">
+        <h3>Copy and Paste your Resume:</h3>
+        <textarea id="resume" rows="4" cols="40"></textarea>
+      </div>
+      <br />
+      <div style="display: flex; justify-content: center">
+        <button
+          style="font-size: 16px; height: 40px; margin-top: 20px"
+          class="custom-btn btn-6"
+          id="submit">
+          Create Cold DMs
+        </button>
+        <!-- <button id="submit">Create Cold DMs</button> -->
+      </div>
+    </div>
+
+    <div class="cold">
+      <h3>Cold DMs:</h3>
+      <textarea id="coldmsg" rows="8" cols="40"></textarea>
+      <button class="open-portal" id="copy">Copy</button>
+    </div>
+
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>
